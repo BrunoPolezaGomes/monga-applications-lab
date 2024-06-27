@@ -2,7 +2,7 @@
 variable "resource_group_name" {
     type = map(string)
   default = {
-    "name"          = "RG-ENVMG"
+    "name"          = "ENVMG"
     "location"      = "brazilsouth"
     "storage"       = "mgappstorage"
  }
@@ -16,7 +16,7 @@ variable "VirtualMachine" {
     "admin_password"        = "Pa$$w0rd"
 
     ## OS Config
-    "VM_Name"               = "MGAPP-LAB"
+    "VM_Name"               = "MGAPP-LAB01"
     "size"                  = "Standard_B1ms"
     "storage_account_type"  = "Standard_LRS"
 
